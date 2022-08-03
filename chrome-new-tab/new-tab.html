@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="css/style.css" class="style">
+    <title>Hello, Benny</title>
+
+</head>
+
+<body>
+    <!--  <h1>Hello, Benny</h1> -->
+
+    <div class="center disable-select"><time class="clock" id="clock"></time></div>
+    <div class="center disable-select"><time class="hello" id="hello"></time></div>
+    <form autocomplete="off" class="center overlay search-form" id="search-form" spellcheck="false">
+        <div>
+            <input class="search-input" id="search-input" title="search" type="text" />
+            <ul class="search-suggestions" id="search-suggestions"></ul>
+        </div>
+    </form>
+    <aside class="center help overlay disable-select" id="help"></aside>
+
+    <script src="js/svg-inject.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/body.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/help.js"></script>
+    <script src="js/influencers.js"></script>
+    <script src="js/queryParser.js"></script>
+    <script src="js/suggester.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/hello.js"></script>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-16f1f628-25b8-4258-957f-70ab0d8a589f"></div>
+
+    <div id="openweathermap-widget-16"></div>
+    <script>
+        window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];
+        window.myWidgetParam.push({
+            id: 16,
+            cityid: '6547835',
+            appid: '3bf0a4c8fff9cb0a67bed3b0799ba0ed',
+            units: 'metric',
+            containerid: 'openweathermap-widget-16',
+        });
+        (function() {
+            var script = document.createElement('script');
+            script.async = true;
+            script.charset = "utf-8";
+            script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(script, s);
+        })();
+    </script>
+</body>
+
+</html>
