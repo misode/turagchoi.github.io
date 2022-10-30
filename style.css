@@ -1,0 +1,115 @@
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+    left: -10px;
+    top: -10px;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.projects {
+    position: relative;
+    top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pixeltrailtxt {
+    position: absolute;
+    color: white;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 2px;
+    top: 630px;
+    left: 300px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pixeltrailimg {
+    position: absolute;
+    top: 555px;
+    left: 14.5%;
+    width: 10%;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.pixeltrailimg:hover {
+    width: 11%;
+    left: 14%;
+    top: 545px;
+}
+
+.turagchoidetxt {
+    position: absolute;
+    color: white;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    top: 637.5px;
+    left: 45.75%;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.turagchoideimg {
+    position: absolute;
+    top: 555px;
+    left: 45%;
+    width: 10%;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.turagchoideimg:hover {
+    width: 11%;
+    left: 44.5%;
+    top: 545px;
+}
+
+.pystufftxt {
+    position: absolute;
+    color: white;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 2px;
+    top: 630px;
+    right: 307.5px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pystuffimg {
+    position: absolute;
+    top: 555px;
+    right: 14.5%;
+    width: 10%;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.pystuffimg:hover {
+    width: 11%;
+    right: 14%;
+    top: 545px;
+}
