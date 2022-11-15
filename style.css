@@ -2,17 +2,19 @@
     position: relative;
     text-align: center;
     color: white;
-    left: -10px;
-    top: -10px;
+    width: 100%;
+    /*left: -10px;*/
+    /*top: -10px;*/
 }
 
 .title {
     font-family: 'Courier New', Courier, monospace;
     font-size: 80px;
     position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 25%;
+    text-align: center;
+    width: 100%;
+    /*transform: translate(-50%, -50%);*/
     font-weight: lighter;
 }
 
@@ -20,9 +22,10 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    /*transform: translate(-50%, -50%);*/
 }
 
 .titleimg {
@@ -36,6 +39,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     text-align: center;
+    width: 100%;
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
@@ -155,7 +159,6 @@
 
 .ProjectName {
     position: relative;
-    color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 700%;
     text-align: center;
@@ -163,9 +166,55 @@
 }
 
 .ProjectName::before {
-    content: 'TuRagChoi.de';
+    transition: 1s;
+    color: transparent;
+    content: "PixelTrails";
 }
 
-.turagchoideimg:hover .ProjectName::before {
-    content: 'Funny';
+.pixeltrail:hover~.ProjectName::before {
+    transition: 2s;
+    color: #fff;
+    content: 'PixelTrails';
+}
+
+.ProjectName2 {
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 700%;
+    text-align: center;
+    top: 810px;
+    width: 99.6%;
+}
+
+.ProjectName2::before {
+    transition: 1s;
+    color: transparent;
+    content: "Websites";
+}
+
+.turagchoide:hover~.ProjectName2::before {
+    transition: 2s;
+    color: #fff;
+    content: 'Websites';
+}
+
+.ProjectName3 {
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 700%;
+    text-align: center;
+    top: 810px;
+    width: 99.6%;
+}
+
+.ProjectName3::before {
+    transition: 1s;
+    color: transparent;
+    content: "Python Stuff";
+}
+
+.pystuff:hover~.ProjectName3::before {
+    transition: 2s;
+    color: #fff;
+    content: 'Python Stuff';
 }
