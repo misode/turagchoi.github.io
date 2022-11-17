@@ -32,6 +32,7 @@
     background: linear-gradient(90deg, rgba(46, 0, 73, 1) 10%, rgba(54, 198, 255, 1) 100%);
     height: 427px;
     left: -10px;
+    width: 100%;
 }
 
 .projects {
@@ -156,6 +157,8 @@
     border-image: linear-gradient(to right, rgb(89, 0, 255), rgb(16, 109, 230)) 1;
     display: block;
     height: 170px;
+    left: -10px;
+    width: 100%;
 }
 
 .ProjectName {
