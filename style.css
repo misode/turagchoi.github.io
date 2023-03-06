@@ -176,13 +176,13 @@ body {
 .ProjectName::before {
     transition: 1s;
     color: transparent;
-    content: "PixelTrails";
+    content: "PixlTrail";
 }
 
 .pixeltrail:hover~.ProjectName::before {
     transition: 2s;
     color: #fff;
-    content: 'PixelTrails';
+    content: 'PixlTrail';
 }
 
 .ProjectName2 {
